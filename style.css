@@ -1,0 +1,7 @@
+/* style.css */
+@font-face {
+  font-family: "MyNerdFont";
+  src: url("fonts/CMUTypewriterNerdFont-TextRegular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
