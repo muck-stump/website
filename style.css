@@ -1,7 +1,12 @@
 /* style.css */
 @font-face {
-  font-family: "MyNerdFont";
-  src: url("fonts/CMUTypewriterNerdFont-TextRegular.otf") format("opentype");
+  font-family: "cmu-nf";
+  src: url("fonts/CMUTypewriterNerdFont-TextRegular.woff2") format("woff2"),
+  		url("fonts/CMUTypewriterNerdFont-TextRegular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
+}
+
+body {
+  font-family: "cmu-nf", monospace;
 }
